@@ -1,0 +1,33 @@
+
+## Welcome to the **BIOTA exclusion** dataset !
+___________________________________________________________________________________________________
+
+___________________________________________________________________________________________________
+
+This dataset is part of the [*FAPESP-BIOTA*](https://fapesp.br/6259/biota-fapesp) project.
+
+This dataset is the result of the 10-years of *Exclusion experiment of medium and large-sized mammals* administrated by Professor [**Mauro Galetti**](https://people.miami.edu/profile/mxr2210@miami.edu).
+
+This repository contains a data table with information about plot location, forest structure, seedlings diversity, herbivory, and morphological traits, seed predation, soil properties, and faunal biomass. 
+
+From the left navigation panel you'll be able to access the descriptions, maps, data and explore the data by a linear regression. You can explore our data table doing an interactive linear regression by choosing the X and Y variables on the left side of this app. We also provide tools that allow you to choose between two different sampling years: 2017 and 2019. You can filter the data in the linear regression tab and download it clicking at the bottom [**Download**] in the data tab.
+
+You can and should use this dataset for educational activities only.
+
+For a quick walkthrough about plot and area overview design have a look a the video below.
+
+___________________________________________________________________________________________________
+
+___________________________________________________________________________________________________
+
+<iframe style = "display: block; margin: left;" width="854" height="480" src="https://www.youtube.com/embed/u-j8dAxkKHw"></iframe>
+
+___________________________________________________________________________________________________
+
+___________________________________________________________________________________________________
+
+This site has been made from RStudio with *shinyapp* and you may find the code on [github](https://github.com/souzayuri/biota_shiny_dashboard).
+
+___________________________________________________________________________________________________
+
+___________________________________________________________________________________________________

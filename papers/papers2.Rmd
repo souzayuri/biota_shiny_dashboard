@@ -1,0 +1,9 @@
+
+
+[**Defaunation precipitates the extinction of evolutionarily distinct interactions in the Anthropocene**](https://advances.sciencemag.org/content/5/6/eaav6699)
+
+**Abstract**
+
+Species on Earth are interconnected with each other through ecological interactions. Defaunation can erode those connections, yet we lack evolutionary predictions about the consequences of losing interactions in human-modified ecosystems. We quantified the fate of the evolutionary history of avian–seed dispersal interactions across tropical forest fragments by combining the evolutionary distinctness of the pairwise-partner species, a proxy to their unique functional features. 
+Both large-seeded plant and large-bodied bird species showed the highest evolutionary distinctness. We estimate a loss of 3.5 to 4.7 × 104 million years of cumulative evolutionary history of interactions due to defaunation. Bird-driven local extinctions mainly erode the most evolutionarily distinct interactions. However, the persistence of less evolutionarily distinct bird species in defaunated areas exerts a phylogenetic rescue effect through seed dispersal of evolutionarily distinct plant species.
+

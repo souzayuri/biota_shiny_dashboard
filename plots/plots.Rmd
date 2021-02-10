@@ -1,0 +1,15 @@
+
+## **Plots desing** !
+___________________________________________________________________________________________________
+
+___________________________________________________________________________________________________
+In 2009, 15 paired open control plots and experimental exclusion plots (5 m long × 3 m wide = 15 m2 each) were installed at Carlos Botelho State Park, and in 2010 at the rest of the regions. Because some of these plots were lost through the years due to fallen trees, so dataset hosted here includes nine paired‐plots in Santa Virgínia/ Itamabuca, 12 in Cardoso Island, 10 in Carlos Botelho, and 12 in Vargem Grande, which add up to a total of 86 plots. Within every region,
+replicate plots were located at least 200 m from the closest pair to reduce spatial autocorrelation. The exclusion plots were fenced off using a 1.6‐m‐high metal fence, 5 cm wire mesh, excluding all terrestrial mammals other than small rodents and marsupials, which could
+permeate through the fence. The control plots remained open with their area demarcated by plastic piles. Open and closed plots were separated 2–7 m from each other to ensure homogeneity between
+microenvironments. We left a border of 0.5 m inside every plot to ease access into the plots while minimizing disturbance and spurious results related to, for example, the use of fences as perches by birds and edge effects.
+
+At the beginning of the experiment, every plot was subdivided into eight 1 m2 subplots, and on three of them (selected at random) all seedlings between 0.1 and 1 m height were identified and marked individually. Subsequent regular surveys of the same subplots were carried out every 6 months, and on every occasion all new seedlings were identified and marked, and the fate of previously marked seedlings checked.
+
+___________________________________________________________________________________________________
+
+___________________________________________________________________________________________________
