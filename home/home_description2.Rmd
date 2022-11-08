@@ -1,29 +1,21 @@
 
-## Welcome to the **DEFAU-BIOTA**, the largest Defaunation experiment in the Atlantic Forest !
+## **Welcome to DEFAU-BIOTA Project** !
 ___________________________________________________________________________________________________
 
 ___________________________________________________________________________________________________
 
+Ecologists are always interested in understanding what determine the species richness and
+functioning of natural ecosystems. Defaunation, the local, global or functional extinction of animal species or populations, have direct consequences for ecosystem functioning. In 2010 we established a series of experimental (fenced and open) plots to estimate the effects of the local extinction of large terrestrial mammals in the Atlantic Forest of Brazil. 
 
-Defaunation, the extinction local, global or functional of animals, have direct consequences for ecosystem functioning. In 2010 we established a series of experimental (fenced and open) plots to estimate the effects of the local extinction of large terrestrial mammals in the Atlantic forest of Brazil. 
+We are monitoring change in soil carbon, nutrients, microbiota, gas emissions, plants, rodents and invertebrate diversity in 86 pair-based plots in the continuous Atlantic Rainforests of Brazil. This project is part of BIOTA FAPESP program. Here we make it available the result of the 10-year of Exclusion experiment of medium and large-sized mammals administrated by Professor **Mauro Galetti** [São Paulo State University](https://unesp.br/portaldocentes/docentes/157124?lang=pt_BR). 
 
-Here we make it available the result of the 10-year of Exclusion experiment of medium and large-sized mammals administrated by Professor **Mauro Galetti** ([University of Miami](https://people.miami.edu/profile/mxr2210@miami.edu) and [São Paulo State University](https://unesp.br/portaldocentes/docentes/157124?lang=pt_BR)).
+This repository contains information about location of each site and plot, forest structure, seedlings diversity, herbivory, and morphological traits, seed predation, soil properties, and faunal biomass. From the left navigation panel, you will be able to access the descriptions, maps, data and explore the data by a linear regression. You can explore this data table doing an interactive linear regression by choosing the X and Y variables on the left side of this app. We also provide tools that allow you to choose between two different sampling years: 2017 and 2019. You can filter the data in the linear regression tab and download it clicking at the bottom [**Download**] in the data tab. You can and should use this dataset for educational activities only. For a quick walkthrough about plot and area overview design have a look the video below. If you need more information contact: 
 
-This repository contains information about location of each site and plot, forest structure, seedlings diversity, herbivory, and morphological traits, seed predation, soil properties, and faunal biomass. 
+- Mauro Galetti: mauro.galetti@unesp.br
+- Nacho Vilar: nachoprad@googlemail.com
+- [Yuri Souza](https://souzayuri.github.io/): desouza.s.yuri@gmail.com
 
-From the left navigation panel you'll be able to access the descriptions, maps, data and explore the data by a linear regression. You can explore this data table doing an interactive linear regression by choosing the X and Y variables on the left side of this app. 
-
-We also provide tools that allow you to choose between two different sampling years: 2017 and 2019. You can filter the data in the linear regression tab and download it clicking at the bottom [Download] in the data tab.
-
-You can and should use this dataset for educational activities only.
-
-For a quick walkthrough about plot and area overview design have a look the video below.
-
-If you need more information contact:
-
-**Mauro Galetti** – mgaletti@miami.edu
-
-**Yuri Souza** – desouza.s.yuri@gmail.com
+To read more about our results, please read this Book Chapter: [Causes and Consequences of Large-Scale Defaunation in the Atlantic Forest](https://www.researchgate.net/publication/348466339_Causes_and_Consequences_of_Large-Scale_Defaunation_in_the_Atlantic_Forest)
 
 ___________________________________________________________________________________________________
 

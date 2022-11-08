@@ -44,8 +44,15 @@ shinyServer(function(input,output){
   output$mymap <- renderLeaflet({
     leaflet(biota) %>% 
       setView(lat = -24.106261, lng = -46.5814557, zoom = 8)  %>% 
+      addProviderTiles(providers$OpenStreetMap, group = "Open Street Map") %>%
       addProviderTiles(providers$Esri.WorldImagery, group = "Esri World Imagery") %>%
-      addLayersControl(baseGroups = c("OSM", "Esri World Imagery"), 
+      addProviderTiles(providers$Esri.NatGeoWorldMap, group = "National Geographic World Map") %>%
+      addProviderTiles(providers$OpenTopoMap, group = "Open Topo Map") %>%
+      addProviderTiles(providers$Esri.WorldPhysical, group = "World Physical") %>%
+      addProviderTiles(providers$Stamen, group = "Stamen") %>%
+      addLayersControl(baseGroups = c("Open Street Map", "Esri World Imagery", 
+                                      "National Geographic World Map", "Open Topo Map", 
+                                      "World Physical", "Stamen"), 
                        options = layersControlOptions(collapsed = TRUE)) %>% 
       addTiles(group = "OSM") %>% 
       addMiniMap(zoomLevelOffset = -4) %>%
@@ -58,10 +65,13 @@ shinyServer(function(input,output){
       addMarkers(lng=-45.2449083, lat=-23.4379185, popup="Serra do Mar State Park (Santa Virginia base)")
   })
   
+  
+  biota_subset2 <- reactive({biota})
+
   # Print data table if checked
   output$biotatable <- DT::renderDataTable(
     if(input$show_data){
-      DT::datatable(data = biota_subset()[, 1:13], 
+      DT::datatable(data = biota_subset2()[, 1:13], 
                     options = list(pageLength = 10), 
                     rownames = FALSE)
     }
@@ -73,7 +83,7 @@ shinyServer(function(input,output){
       paste("biota", "csv", sep = ".")
     },
     content = function(file){
-      write_csv(biota_subset(), file)
+      write_csv(biota_subset2(), file)
     }
   )
   
