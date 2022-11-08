@@ -65,27 +65,57 @@ shinyServer(function(input,output){
       addMarkers(lng=-45.2449083, lat=-23.4379185, popup="Serra do Mar State Park (Santa Virginia base)")
   })
   
-  
-  biota_subset2 <- reactive({biota})
+
 
   # Print data table if checked
   output$biotatable <- DT::renderDataTable(
     if(input$show_data){
-      DT::datatable(data = biota_subset2()[, 1:13], 
-                    options = list(pageLength = 10), 
-                    rownames = FALSE)
+      DT::datatable(data = biota,
+                    filter = "top",
+                    selection = "none",
+                    class = 'cell-border stripe',
+                    extensions = c("Buttons", "KeyTable", 'Scroller'),
+                    options = list(
+                      initComplete = JS(
+                        "function(settings, json) {",
+                        "$(this.api().table().header()).css({'background-color': '#66CDAA', 'color': '1c1b1b'});",
+                        "}"),
+                      order = list(63, 'desc'), #reorder by modifying data
+                      keys = TRUE,
+                      autoWidth = TRUE,
+                      columnDefs = list(
+                        #list(targets = -1, orderable = TRUE),
+                        list(className = 'dt-center', targets = "_all"),
+                        list(targets = c(1:217), width = '200px')),
+                      scrollX = TRUE,
+                      dom = 'Blfrtip',
+                      deferRender = TRUE,
+                      scrollY = 450,
+                      scroller = TRUE,
+                      buttons = list(
+                        I('colvis'),
+                        list(
+                          extend = "csv",
+                          charset = 'UTF-8',
+                          bom = TRUE,
+                          text = "Download",
+                          title = paste0("biota_all_variables-", Sys.Date())
+                    )
+                  )
+                )
+              )
     }
   )
   
   # download tables
-  output$downloadData <- downloadHandler(
-    filename = function(){
-      paste("biota", "csv", sep = ".")
-    },
-    content = function(file){
-      write_csv(biota_subset2(), file)
-    }
-  )
+#  output$downloadData <- downloadHandler(
+#    filename = function(){
+#      paste("biota", "csv", sep = ".")
+#    },
+#    content = function(file){
+#      write_csv(biota_subset2(), file)
+#    }
+#  )
   
 
   output$downloadData1 <- downloadHandler(
