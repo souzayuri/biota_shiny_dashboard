@@ -4,18 +4,18 @@ ________________________________________________________________________________
 
 ___________________________________________________________________________________________________
 
-Ecologists are always interested in understanding what determine the species richness and
-functioning of natural ecosystems. Defaunation, the local, global or functional extinction of animal species or populations, have direct consequences for ecosystem functioning. In 2010 we established a series of experimental (fenced and open) plots to estimate the effects of the local extinction of large terrestrial mammals in the Atlantic Forest of Brazil. 
+Ecologists are constantly seeking to comprehend the factors that determine the species diversity and functionality of natural ecosystems. Defaunation, which refers to the extinction of animal species or populations on a local, global, or functional level, has a direct impact on the functioning of ecosystems. In 2010, we established a series of experimental plots (both fenced and open) to estimate the effects of the extinction of large terrestrial mammals on the Atlantic Forest of Brazil.
 
-We are monitoring change in soil carbon, nutrients, microbiota, gas emissions, plants, rodents and invertebrate diversity in 86 pair-based plots in the continuous Atlantic Rainforests of Brazil. This project is part of BIOTA FAPESP program. Here we make it available the result of the 10-year of Exclusion experiment of medium and large-sized mammals administrated by Professor **Mauro Galetti** [São Paulo State University](https://unesp.br/portaldocentes/docentes/157124?lang=pt_BR). 
+We are monitoring changes in soil carbon, nutrients, microbiota, gas emissions, plants, rodents, and invertebrate diversity in 86 pair-based plots in the continuous Atlantic Rainforests of Brazil. This project is part of the BIOTA FAPESP program. Here we make available the result of the 10-year Exclusion experiment of medium and large-sized mammals administrated by Professor **Mauro Galetti** [São Paulo State University](https://unesp.br/portaldocentes/docentes/157124?lang=pt_BR).
 
-This repository contains information about location of each site and plot, forest structure, seedlings diversity, herbivory, and morphological traits, seed predation, soil properties, and faunal biomass. From the left navigation panel, you will be able to access the descriptions, maps, data and explore the data by a linear regression. You can explore this data table doing an interactive linear regression by choosing the X and Y variables on the left side of this app. We also provide tools that allow you to choose between two different sampling years: 2017 and 2019. You can filter the data in the linear regression tab and download it clicking at the bottom [**Download**] in the data tab. You can and should use this dataset for educational activities only. For a quick walkthrough about plot and area overview design have a look the video below. If you need more information contact: 
+This repository contains information about the location of each site and plot, forest structure, seedlings diversity, herbivory and morphological traits, seed predation, soil properties, and faunal biomass. From the left navigation panel, you will be able to access the descriptions, maps, and data and explore the data by plotting a linear regression and selecting the X and Y variables of interest. We also provide tools that allow you to choose between two different sampling years: 2017 and 2019. You can filter the data in the linear regression tab and download it by clicking at the bottom [**Download**] in the *Data Table* tab. You can and should use this dataset for educational activities only. For a quick walkthrough of the sample areas and experimental design please take a look at the video below.
 
+If you have any questions about the data and its use, please contact one of the following researchers:
 - Mauro Galetti: mauro.galetti@unesp.br
 - Nacho Vilar: nachoprad@googlemail.com
 - [Yuri Souza](https://souzayuri.github.io/): desouza.s.yuri@gmail.com
 
-To read more about our results, please read this Book Chapter: [Causes and Consequences of Large-Scale Defaunation in the Atlantic Forest](https://www.researchgate.net/publication/348466339_Causes_and_Consequences_of_Large-Scale_Defaunation_in_the_Atlantic_Forest)
+To read more about our results, please take a look at this Book Chapter: [Causes and Consequences of Large-Scale Defaunation in the Atlantic Forest](https://www.researchgate.net/publication/348466339_Causes_and_Consequences_of_Large-Scale_Defaunation_in_the_Atlantic_Forest)
 
 ___________________________________________________________________________________________________
 

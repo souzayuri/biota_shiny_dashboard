@@ -4,7 +4,7 @@ ________________________________________________________________________________
 
 ___________________________________________________________________________________________________
 
-This site has been made from RStudio with *shinyapp* and you may find the code on [github](https://github.com/souzayuri/biota_shiny_dashboard).
+This site has been made using RStudio and *shinyapp*, and you may find the scripts and additional files in [github](https://github.com/souzayuri/biota_shiny_dashboard).
 
 ___________________________________________________________________________________________________
 

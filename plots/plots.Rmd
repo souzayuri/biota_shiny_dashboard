@@ -3,12 +3,13 @@
 ___________________________________________________________________________________________________
 
 ___________________________________________________________________________________________________
-In 2009, 15 paired open control plots and experimental exclusion plots (5 m long × 3 m wide = 15 m2 each) were installed at Carlos Botelho State Park, and in 2010 at the rest of the regions. Because some of these plots were lost through the years due to fallen trees, so dataset hosted here includes nine paired‐plots in Santa Virgínia/ Itamabuca, 12 in Cardoso Island, 10 in Carlos Botelho, and 12 in Vargem Grande, which add up to a total of 86 plots. Within every region,
-replicate plots were located at least 200 m from the closest pair to reduce spatial autocorrelation. The exclusion plots were fenced off using a 1.6‐m‐high metal fence, 5 cm wire mesh, excluding all terrestrial mammals other than small rodents and marsupials, which could
-permeate through the fence. The control plots remained open with their area demarcated by plastic piles. Open and closed plots were separated 2–7 m from each other to ensure homogeneity between
-microenvironments. We left a border of 0.5 m inside every plot to ease access into the plots while minimizing disturbance and spurious results related to, for example, the use of fences as perches by birds and edge effects.
+In 2009, 15 sets of open control plots and experimental exclusion plots were established at Carlos Botelho State Park. The plots were 5 meters long and 3 meters wide, covering an area of 15 square meters each. In 2010, similar plots were set up in the other regions. Over the years, some of the plots were lost due to fallen trees. The dataset available here includes a total of 86 plots, with 9 paired plots in Santa Virgínia/Itamabuca, 12 in Cardoso Island, 10 in Carlos Botelho, and 12 in Vargem Grande. In every region, the plots were established following the same methodology.
+
+To minimize spatial autocorrelation, each pair of plots is located at least 200 meters apart from each other. The exclusion plots are enclosed by a 1.6-meter-high metal fence with a 5 cm wire mesh, which restricts access to all land mammals except for small rodents and marsupials. The control plots are open and their area is marked by pipes and fishing line at a height of 1 meter. Open and closed plots are separated by a distance of 2-7 meters, ensuring consistency between microenvironments. We maintain a 0.5-meter border inside each plot to facilitate access while limiting disturbance and false outcomes resulting from, for instance, the use of fences as perches by birds and edge effects.
 
 At the beginning of the experiment, every plot was subdivided into eight 1 m2 subplots, and on three of them (selected at random) all seedlings between 0.1 and 1 m height were identified and marked individually. Subsequent regular surveys of the same subplots were carried out every 6 months, and on every occasion all new seedlings were identified and marked, and the fate of previously marked seedlings checked.
+
+Due to the COVID-19 pandemic, our monitoring was temporarily discontinued and resumed in 2023. The updated date is not yet available in this database. Please contact one of the project heads for access.
 
 ___________________________________________________________________________________________________
 

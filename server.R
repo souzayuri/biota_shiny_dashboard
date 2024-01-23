@@ -14,7 +14,7 @@ if(!require("shinyalert")) install.packages("shinyalert", dependencies = TRUE)
 if(!require("leaflet")) install.packages("leaflet", dependencies = TRUE)
 if(!require("devtools")) install.packages("devtools", dependencies = TRUE)
 if(!require("dashboardthemes")) install_github("nik01010/dashboardthemes", dependencies = TRUE)
-if(!require("rmarkdown")) install.packages("rmarkdown", dependencies = TRUE)
+if(!require("markdown")) install.packages("markdown", dependencies = TRUE)
 
 
 rm(list=ls())
@@ -49,12 +49,12 @@ shinyServer(function(input,output){
       addProviderTiles(providers$Esri.NatGeoWorldMap, group = "National Geographic World Map") %>%
       addProviderTiles(providers$OpenTopoMap, group = "Open Topo Map") %>%
       addProviderTiles(providers$Esri.WorldPhysical, group = "World Physical") %>%
-      addProviderTiles(providers$Stamen, group = "Stamen") %>%
+      #addProviderTiles(providers$Stamen, group = "Stamen") %>%
       addLayersControl(baseGroups = c("Open Street Map", "Esri World Imagery", 
                                       "National Geographic World Map", "Open Topo Map", 
-                                      "World Physical", "Stamen"), 
+                                      "World Physical"), 
                        options = layersControlOptions(collapsed = TRUE)) %>% 
-      addTiles(group = "OSM") %>% 
+      addTiles(group = "National Geographic World Map") %>% 
       addMiniMap(zoomLevelOffset = -4) %>%
       addScaleBar() %>% 
       addCircles(data = biota, lat = ~ Latitude, lng = ~ Longitude, 
@@ -139,7 +139,7 @@ shinyServer(function(input,output){
     
     ggplot(data = biota_subset(), aes_string(x = input$x, y = input$y,
                                              colour = input$z), fill = input$Date) +
-      geom_smooth(method='lm', formula= y~x,  size=3) + 
+      geom_smooth(method='loess', formula= y~x,  size=3) + 
       geom_point(alpha = input$alpha, size = 10) + 
       theme_gdocs() +
       #stat_cor(label.y = 1, label.x = 0) + 

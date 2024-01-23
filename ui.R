@@ -14,7 +14,7 @@ if(!require("shinyalert")) install.packages("shinyalert", dependencies = TRUE)
 if(!require("leaflet")) install.packages("leaflet", dependencies = TRUE)
 if(!require("devtools")) install.packages("devtools", dependencies = TRUE)
 if(!require("dashboardthemes")) install_github("nik01010/dashboardthemes", dependencies = TRUE)
-if(!require("rmarkdown")) install.packages("rmarkdown", dependencies = TRUE)
+if(!require("markdown")) install.packages("markdown", dependencies = TRUE)
 
 
 rm(list=ls())
@@ -266,7 +266,7 @@ shinyUI(
                                             "Tayassu_pecari biomass mean time in plot (seconds)" = "Tayassu_pecari_mean_time_in_plot",
                                             "Medium and large-sized mammals body mass (kg)" = "ml_body_size_kg",
                                             "Herbivore body mass (kg)" = "hbvr_body_size_kg"), 
-                                selected = "Latitude"),
+                                selected = "D_Shannon"),
                     
                     # Select variable for x-axis
                     selectInput(inputId = "x", 
@@ -483,7 +483,7 @@ shinyUI(
                                             "Tayassu_pecari biomass mean time in plot (seconds)" = "Tayassu_pecari_mean_time_in_plot",
                                             "Medium and large-sized mammals body mass (kg)" = "ml_body_size_kg",
                                             "Herbivore body mass (kg)" = "hbvr_body_size_kg"),
-                                selected = "Longitude"),
+                                selected = "Canopy_cover"),
                     
                     # Select variable for color
                     selectInput(inputId = "z", 
@@ -509,7 +509,7 @@ shinyUI(
                     selectInput(inputId = "Date",
                                 label = "Chose the year range:",
                                 choices = c(2017,2019),
-                                selected = c(2017,2019),
+                                selected = c(2019),
                                 multiple = TRUE),
                     
                     # Enter text for plot title, only when other inputs are updated

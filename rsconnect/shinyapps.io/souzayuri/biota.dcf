@@ -1,13 +1,12 @@
 name: biota
 title: biota
-username:
+username: souzayuri
 account: souzayuri
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
-appId: 5422632
-bundleId: 6490963
+appId: 10995318
+bundleId: 8176634
 url: https://souzayuri.shinyapps.io/biota/
-when: 1667944218.28232
-lastSyncTime: 1667944218.28233
+version: 1
 asMultiple: FALSE
 asStatic: FALSE

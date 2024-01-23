@@ -6,15 +6,15 @@ ________________________________________________________________________________
 
 This dataset is part of the [*FAPESP-BIOTA*](https://fapesp.br/6259/biota-fapesp) project.
 
-This dataset is the result of the 10-years of *Exclusion experiment of medium and large-sized mammals* administrated by Professor [**Mauro Galetti**](https://people.miami.edu/profile/mxr2210@miami.edu).
+The data available here is the result of a 10-year Exclusion experiment of medium and large-sized mammals carried out by Dr. and Professor [**Mauro Galetti**](https://www.researchgate.net/profile/Mauro-Galetti) and his lab (LaBiC – Biology and Conservation laboratory).
 
-This repository contains a data table with information about plot location, forest structure, seedlings diversity, herbivory, and morphological traits, seed predation, soil properties, and faunal biomass. 
+This repository contains a data table with information about plot location, forest structure, seedlings diversity, herbivory, and morphological traits, seed predation, soil properties, and faunal biomass.
 
-From the left navigation panel you'll be able to access the descriptions, maps, data and explore the data by a linear regression. You can explore our data table doing an interactive linear regression by choosing the X and Y variables on the left side of this app. We also provide tools that allow you to choose between two different sampling years: 2017 and 2019. You can filter the data in the linear regression tab and download it clicking at the bottom [**Download**] in the data tab.
+From the left navigation panel, you'll be able to access the descriptions, maps, and data and explore the data by using a linear regression plot, being able to choose the X and Y variables on the left side of this app. We also provide tools that allow you to choose between two different sampled years: 2017 and 2019. You can filter the data in the linear regression tab and download it by clicking at the bottom [**Download**] in the *Data Table* tab.
 
 You can and should use this dataset for educational activities only.
 
-For a quick walkthrough about plot and area overview design have a look a the video below.
+For a quick walkthrough of the sample areas and experimental design please take a look at the video below.
 
 ___________________________________________________________________________________________________
 
@@ -26,7 +26,7 @@ ________________________________________________________________________________
 
 ___________________________________________________________________________________________________
 
-This site has been made from RStudio with *shinyapp* and you may find the code on [github](https://github.com/souzayuri/biota_shiny_dashboard).
+This site has been made using RStudio and *shinyapp* and you may find the script and additional files in [github](https://github.com/souzayuri/biota_shiny_dashboard).
 
 ___________________________________________________________________________________________________
 
